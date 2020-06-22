@@ -1,0 +1,9 @@
+function [outputArg1,outputArg2] = integration(J, epsilon,p,h, t0)
+ti=t0;
+while ti <= tf
+    i=i+1;
+    ti=ti+h;
+    k=0;
+    pk=
+end
+

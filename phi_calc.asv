@@ -1,0 +1,6 @@
+function [phi] = phi_calc (p(k),p(k+1))
+
+phi(1,k)= x(k+1)-x(k)-(h/2)*(f(k)+f(k+1));
+phi (2,k)=g(k+1);
+end
+
